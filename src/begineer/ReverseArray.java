@@ -1,3 +1,5 @@
+package begineer;
+
 import java.util.Arrays;
 
 public class ReverseArray {

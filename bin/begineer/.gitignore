@@ -1,0 +1,81 @@
+### Java ###
+# Compiled files
+*.class
+*.log
+*.ctxt
+*.lst
+
+# Package files
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+
+# JVM crash logs
+hs_err_pid*
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### Gradle ###
+.gradle
+build/
+bin/
+!gradle-wrapper.jar
+
+### IDE ###
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+tmp/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/
+nbactions.xml
+nb-configuration.xml
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Dependency Management ###
+# Maven wrapper (if not using binary jar)
+.mvn/wrapper/maven-wrapper.properties
+
+# Local dependencies (if any)
+lib/
+
+### Local Configuration ###
+# Environment files
+.env
+*.properties
+
+# Secrets
+localhost.json
+heroku.json
+
+### Build Systems ###
+# Ant
+ant-build/

@@ -74,6 +74,7 @@ class MyLinkedList {
         head = null;
     }
 
+
     /*
      * public MyLinkedList(int val) { ListNode node = new ListNode(); node.val = val; node.next =
      * null; }

@@ -2,7 +2,7 @@ package begineer.bit_manipulation;
 
 public class basic {
     public static void main(String[] args) {
-        decimalToBinary(52);
+        decimalToBinary(10);
     }
 
     public static void decimalToBinary(int n) {
@@ -16,6 +16,10 @@ public class basic {
         str.reverse();
         System.out.println(str);
         binaryToDecimal(str.toString());
+        /* String s = == true ? "even" : "odd"; */
+        System.out.println("n:" + n + "-" + evenOrOdd(n));
+
+
     }
 
     public static void binaryToDecimal(String s) {
@@ -34,6 +38,15 @@ public class basic {
          */
         System.out.println(sum);
     }
+
+    public static boolean evenOrOdd(int n) {
+        if ((n & 1) == 0) {
+            return true;
+        } else
+            return false;
+
+    }
+
 
 }
 
